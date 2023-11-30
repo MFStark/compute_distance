@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "compute_distance"
-version = "0.0.5"
+version = "0.0.6"
 description = "Compute distances and create TIF files"
 authors = [
     "Marcon <mfikingas@gmail.com>",
@@ -72,6 +72,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 compute_distance = "compute_distance.cli:cli"
+compute_distance_debug = "compute_distance.cli:cli_debug"
 
 [tool.isort]
 profile = "black"
