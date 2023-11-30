@@ -1,0 +1,18 @@
+{
+  "template": "https://github.com/collijk/python-package-cookiecutter",
+  "commit": "950d4976f7804b85d7a542197422664419ff94b3",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "author_name": "Marcon",
+      "author_email": "mfikingas@gmail.com",
+      "github_username": "MFStark",
+      "project_name": "compute_distance",
+      "project_slug": "compute_distance",
+      "package_name": "compute_distance",
+      "project_short_description": "Compute distances and create TIF files",
+      "_template": "https://github.com/collijk/python-package-cookiecutter"
+    }
+  },
+  "directory": null
+}
