@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "compute_distance"
-version = "0.0.4"
+version = "0.0.5"
 description = "Compute distances and create TIF files"
 authors = [
     "Marcon <mfikingas@gmail.com>",

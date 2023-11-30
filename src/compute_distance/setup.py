@@ -12,7 +12,7 @@ setup(
     install_requires=required_packages,
     entry_points={
         'console_scripts': [
-            'compute_distance = compute_distance.cli:main',
+            'my-cli = compute_distance.cli:main',
         ],
     },
 )
