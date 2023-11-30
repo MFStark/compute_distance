@@ -101,9 +101,9 @@ show_error_codes = true
 
 # Uncomment the following lines and add packages to the "module" list to
 # handle mypy errors when 3rd party packages are not typed.
-# [[tool.mypy.overrides]]
-# module = []
-# ignore_missing_imports = true
+[[tool.mypy.overrides]]
+module = ["setuptools", "distance_computation.functions", "pandas", "geopandas", "scipy.ndimage", "matplotlib", "matplotlib.pyplot", "rasterio", "rasterio.mask", "rasterio.plot", "rasterio.crs", "affine"]
+ignore_missing_imports = true
 
 [tool.tryceratops]
 ignore=["TRY003"]
